@@ -1,0 +1,11 @@
+# Aktifkan rewrite
+RewriteEngine On
+
+# Blok akses folder config & modules langsung
+RewriteRule ^(config|modules)/ - [F,L]
+
+# Default index
+DirectoryIndex index.php
+
+# Disable directory listing
+Options -Indexes

@@ -1,0 +1,46 @@
+body {
+    background: #ecf0f1;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.sidebar {
+    width: 240px;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1;
+}
+
+.card-box {
+    color: #fff;
+    padding: 20px;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-box h3 {
+    font-size: 28px;
+    margin: 0;
+}
+
+.card-box p {
+    margin: 0;
+}
+
+.card-box i {
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    font-size: 60px;
+    opacity: 0.2;
+}
+
+.card-box a {
+    display: block;
+    margin-top: 15px;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
