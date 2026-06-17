@@ -29,8 +29,7 @@
 
 </br>
 
-### DAD  
-<img src="img/dad_refisi.png" width="450">
+
 
 
 ---   
